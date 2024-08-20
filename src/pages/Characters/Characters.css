@@ -1,0 +1,17 @@
+.characters {
+  display: flex;
+  flex-direction: column;
+  padding: var(--rtc-m-space);
+  gap: var(--rtc-m-space);
+  justify-content: center;
+  align-items: center;
+}
+
+.generalFichas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--rtc-m-space);
+
+}
+

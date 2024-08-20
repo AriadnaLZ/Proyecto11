@@ -1,0 +1,9 @@
+.loading {
+  width: 100%;
+  display: flex;
+  justify-content: center
+  ;}
+
+  .loading img {
+    width: 80%;
+  }

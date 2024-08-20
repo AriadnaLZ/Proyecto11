@@ -1,0 +1,33 @@
+.mainPersonaje {
+  padding: var(--rtc-s-space);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--rtc-s-space);
+}
+
+.contenedorFicha {
+  padding: var(--rtc-s-space);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--rtc-s-space);
+  max-width:500px;
+  border: 2px solid rgba(245, 245, 245, 0.334);
+  border-radius: 15px;
+}
+
+.contenedorFicha > img {
+  width: 30%;
+}
+
+.contenedorFicha > p {
+  text-align: center;
+}
+
+.mainPersonaje > a {
+  font-size: 30px;
+  cursor: pointer;
+}

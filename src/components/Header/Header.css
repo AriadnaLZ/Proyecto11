@@ -1,0 +1,8 @@
+header > img {
+  width: 20%;
+}
+header {
+  display: flex;
+  justify-content: center;
+  height: 20%;
+}
